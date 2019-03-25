@@ -33,7 +33,7 @@ if (!channel) return;
             
                channel.send(`**WELOCME TO TM SSRVER ■■■■اتمني تستمتع معانا■■■■:heart:
 **
-,`) ;  
+`) ;  
 },5000)                            
 });
 
