@@ -31,7 +31,7 @@ if (!channel) return;
                            
                    setTimeout(() => {
             
-               channel.send(`${member}**WELOCME TO TM SSRVER 
+               channel.send(`${member}**WELOCME TO HuleR SSRVER 
 ■■■■اتمني تستمتع معانا■■■■:heart:
 **
 `) ;  
