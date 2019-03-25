@@ -1,13 +1,42 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = "!"
+const najzx = '#'
 
-client.on("guildMemberAdd", member => {
-let we = client.channels.get("558253531107164170");
-      if(!we) return;
-      if(we) {
-welcomer.send(`WELOCME TO TM SSRVER  ■■■■اتمني تستمتع معانا■■■■:heart:`)
-}
-})
 
-client.login(process.env.BOT_TOKEN);	
+
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`By : :"}.`);
+        console.log(`---------------`);
+      console.log(`ON ${client.guilds.size} Servers `);
+    console.log(`---------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+  client.user.setGame(``);
+}); // 
+
+
+client.on('guildMemberAdd', member  => {
+var channel = member.guild.channels.find('name', 'chat')
+         console.log('-');
+    console.log('-');
+    console.log('-');
+    console.log('-');
+
+
+if (!channel) return;
+   
+
+       
+                          
+                           
+                   setTimeout(() => {
+            
+               channel.send(`**WELOCME TO TM SSRVER ■■■■اتمني تستمتع معانا■■■■:heart:
+**
+,`) ;  
+},5000)                            
+});
+
+client.login(process.env.BOT_TOKEN);
+ 
+      
